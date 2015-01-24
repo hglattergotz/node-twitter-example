@@ -1,18 +1,31 @@
-A demo node server to access the twitter REST and streaming API.
+node-twitter-example a demo node server to access the twitter REST and streaming API.
 
-This is intended to the backend for an ember demo application that can be found [here](https://github.com/hglattergotz/ember-twitter-demo)
+This is intended to the backend for an ember demo application that can be found [here](https://github.com/hglattergotz/ember-twitter-demo).
 
-IMPORTANT: You need to get a [Twitter access](https://dev.twitter.com/oauth/overview) token and put the keys in the ./config.js file.
-           Just copy the ./config.js.dist file to ./config.js and add your info.
+## Installation
+
+Just clone the repository.
+
+## Getting a Twitter access token
+
+Get a [Twitter access token](https://dev.twitter.com/oauth/overview).
+Copy the ./config.js.dist to ./config.js and add your key information.
+
+## Start the server
+
+```node index```
+
+## Endpoints
 
 The server responds to
 
-  http://0.0.0.0:8001/tweets
-  http://0.0.0.0:8001/settings
-  ws://0.0.0.0:8001/ts
+ * http://0.0.0.0:8001/tweets
+ * http://0.0.0.0:8001/settings
+ * ws://0.0.0.0:8001/ts
 
 The /tweets endpoint is essentially a proxy to the twitter search REST api.
+
 The /settings endpoint responds to GET and PUT requests and is used for managing the
 search term.
 
-Once the ./config.js file has been updated simply run the app with ```node index```.
+The /ts endpoint provides access to the twitter streaming api via websockets.
