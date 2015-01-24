@@ -4,7 +4,8 @@ This is intended to the backend for an ember demo application that can be found 
 
 ### Installation
 
-Just clone the repository.
+ 1. Clone the repository
+ 2. ```npm install```
 
 ### Getting a Twitter access token
 
@@ -13,7 +14,7 @@ Copy the ./config.js.dist to ./config.js and add your key information.
 
 ### Start the server
 
-```node index```
+```$ node index```
 
 ### Endpoints
 
