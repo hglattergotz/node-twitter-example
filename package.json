@@ -1,0 +1,13 @@
+{
+  "name": "node-twitter-example",
+  "version": "0.0.1",
+  "description": "Node.js backend for Ember Talk",
+  "dependencies": {
+    "express": "~4.9.7",
+    "twitter": "1.0.3",
+    "winston": "0.8.3",
+    "body-parser": "^1.10.1",
+    "ws": "^0.6.5"
+  },
+  "author": "Henning Glatter-Götz"
+}
