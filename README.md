@@ -1,6 +1,6 @@
-node-twitter-example a demo node server to access the twitter REST and streaming API.
+**node-twitter-example** is a demo node server to access the twitter REST and streaming API.
 
-This is intended to the backend for an ember demo application that can be found [here](https://github.com/hglattergotz/ember-twitter-demo).
+This is intended to be the backend for an ember demo application that can be found [here](https://github.com/hglattergotz/ember-twitter-demo).
 
 ### Installation
 
