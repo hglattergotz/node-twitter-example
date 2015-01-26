@@ -1,4 +1,4 @@
-**node-twitter-example** is a demo node server to access the twitter REST and streaming API.
+**node-twitter-example** is a demo node server to access the Twitter REST and streaming API.
 
 This is intended to be the backend for an ember demo application that can be found [here](https://github.com/hglattergotz/ember-twitter-demo).
 
@@ -20,14 +20,14 @@ Copy the ./config.js.dist to ./config.js and add your key information.
 
 The server responds to
 
- * http://0.0.0.0:8001/tweets
- * http://0.0.0.0:8001/settings
+ * http<span></span>://0.0.0.0:8001/tweets
+ * http<span></span>://0.0.0.0:8001/settings
  * ws://0.0.0.0:8001/ts
 
-The /tweets endpoint is essentially a proxy to the twitter search REST api.
+The /tweets endpoint is essentially a proxy to the twitter search REST API.
 The /settings endpoint responds to GET and PUT requests and is used for managing the
-search term.
-The /ts endpoint provides access to the twitter streaming api via websockets.
+search term that is used in the /tweets endpoint as well as the /ts endpoint.
+The /ts endpoint provides access to the Twitter streaming API via websockets.
 
 ### Lincense
 
